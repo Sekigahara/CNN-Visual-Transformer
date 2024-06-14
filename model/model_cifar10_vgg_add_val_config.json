@@ -1,0 +1,24 @@
+{
+    "learning_rate": 0.001,
+    "batch_size": 16,
+    "num_epochs": 15,
+    "image_size": 72,
+    "patch_size": 6,
+    "num_patches": 144,
+    "projection_dim": 64,
+    "num_heads": 12,
+    "final_dropout_layer": 0.5,
+    "transformer_units": [
+        128,
+        64
+    ],
+    "transformer_layers": 12,
+    "mlp_head_units": [
+        3072
+    ],
+    "final_accuracy": [
+        1.036131739616394
+    ],
+    "final_loss": 0.7809000015258789,
+    "final_top_3_acc": 0.9491999745368958
+}
